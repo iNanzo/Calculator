@@ -5,7 +5,7 @@ public class Main {
     {
         Calculator calculator = new Calculator();
 
-        int sum = calculator.add(4, 7);
-        System.out.println("4 + 7 = " + sum);
+        int sum = calculator.add(5, 3);
+        System.out.println("5 + 3 = " + sum);
     }
 }
