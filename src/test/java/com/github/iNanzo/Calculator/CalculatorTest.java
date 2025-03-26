@@ -18,7 +18,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Test for Addition")
     void testAdd() {
-        assertEquals(4, calculator.add(1, 2), "1 + 2 = ");
+        assertEquals(3, calculator.add(1, 2), "1 + 2 = ");
         assertEquals(-2, calculator.add(-4, 2), "-4 + 2");
     }
 
